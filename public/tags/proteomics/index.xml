@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proteomics on Dr. Alistair Bailey</title>
+    <link>/tags/proteomics/</link>
+    <description>Recent content in Proteomics on Dr. Alistair Bailey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/proteomics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>British Society for Proteomics 2018 Data Science Workshop</title>
+      <link>/project/2018-07-16-bspr-workshop/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2018-07-16-bspr-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MHC dynamics dashboard</title>
+      <link>/project/2018-05-17-hdx-dashboard/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2018-05-17-hdx-dashboard/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

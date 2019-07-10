@@ -24,14 +24,22 @@ subtitle = ""
   [[content.filter_button]]
     name = "All"
     tag = "*"
+    
+  [[content.filter_button]]
+    name = "MHC I antigen processing"
+    tag = "MHC I antigen processing"
+    
+  [[content.filter_button]]
+    name = "Proteomics"
+    tag = "Proteomics"
+    
+  [[content.filter_button]]
+    name = "R"
+    tag = "R"
   
   [[content.filter_button]]
     name = "Deep Learning"
     tag = "Deep Learning"
-  
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
