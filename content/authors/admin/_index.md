@@ -21,7 +21,7 @@ interests:
 name: Alistair Bailey
 organizations:
 - name: University of Southampton
-  url: www.soton.ac.uk
+  url: https://www.southampton.ac.uk/
 role: Research Fellow in Immunoproteomics
 social:
 - icon: envelope
