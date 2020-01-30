@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Alistair Bailey">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Summary and reflectionsCoding togetheR was run asa series of two hour workshops based on my experiences of working as a member of The Carpentries community, as a member of the global R community,and as the name suggests from reading Greg Wilson’s Teaching Tech Together.There were seven workshops weekly from the 10th October 2019 until the 21st November,and then therewere two further workshops on the 9th and 16th of January.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/2020-01-30-coding-together-report/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.d9a97286e3cbad5765504c93a97229e1.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/2020-01-30-coding-together-report/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@alistair604">
+  <meta property="twitter:creator" content="@alistair604">
+  
+  <meta property="og:site_name" content="Dr. Alistair Bailey">
+  <meta property="og:url" content="/post/2020-01-30-coding-together-report/">
+  <meta property="og:title" content="Coding TogetheR Workshop Series Report | Dr. Alistair Bailey">
+  <meta property="og:description" content="Summary and reflectionsCoding togetheR was run asa series of two hour workshops based on my experiences of working as a member of The Carpentries community, as a member of the global R community,and as the name suggests from reading Greg Wilson’s Teaching Tech Together.There were seven workshops weekly from the 10th October 2019 until the 21st November,and then therewere two further workshops on the 9th and 16th of January."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Coding TogetheR Workshop Series Report | Dr. Alistair Bailey</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Dr. Alistair Bailey</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cv_2018.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Coding TogetheR Workshop Series Report</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="" itemprop="datePublished">
+<meta content="" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jan 1, 0001</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/2020-01-30-coding-together-report/&amp;text=Coding%20TogetheR%20Workshop%20Series%20Report" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/2020-01-30-coding-together-report/&amp;t=Coding%20TogetheR%20Workshop%20Series%20Report" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Coding%20TogetheR%20Workshop%20Series%20Report&amp;body=/post/2020-01-30-coding-together-report/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/2020-01-30-coding-together-report/&amp;title=Coding%20TogetheR%20Workshop%20Series%20Report" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Coding%20TogetheR%20Workshop%20Series%20Report%20/post/2020-01-30-coding-together-report/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/2020-01-30-coding-together-report/&amp;title=Coding%20TogetheR%20Workshop%20Series%20Report" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<div id="summary-and-reflections" class="section level2">
+<h2>Summary and reflections</h2>
+<p><a href="https://ab604.github.io/docs/coding-together-2019/">Coding togetheR</a> was run as
+a series of two hour workshops based on my experiences of working as a member of <a href="https://carpentries.org/">The Carpentries</a> community, as a member of the global R community,
+and as the name suggests from reading Greg Wilson’s <a href="https://teachtogether.tech/#">Teaching Tech Together</a>.
+There were seven workshops weekly from the 10th October 2019 until the 21st November,
+and then there
+were two further workshops on the 9th and 16th of January. (We had a break during the industrial action.)</p>
+<p>The course was intended to be open to 20 learners from across the University, but
+after opening application on a first come, first serve basis to those on the Life Sciences
+mailing list, the course was filled within an hour of advertisement by
+learners almost exclusively from Biological Sciences and Medicine, including three
+additional learners to the original 20, making a total of 23 learners registered.</p>
+<p>The aim of the workshops was to provide a question driven introduction to working
+with tabular data in R by introducing:</p>
+<ul>
+<li>the R language in the RStudio interactive development environment.</li>
+<li>how to organise analysis into a workflow.</li>
+<li>how to import and export data and how the atomic data types are represented in R.</li>
+<li>data transformation using R.</li>
+<li>visualising data using R.</li>
+</ul>
+<p>The course materials exist as an <a href="(https://ab604.github.io/docs/coding-together-2019/)">online book</a>
+and some <a href="https://ab604.github.io/docs/coding-together-slides-2019/lesson-slides-2019.html#1">accompying slides</a>.</p>
+<p>As measured by the number of workshop survey respondents,
+the workshops began with 23 learners and finished with 8 learners. A 65% attrition rate,
+worse than my prediction of 50%.<br />
+Despite my best intentions, and as a result of my fairly poor attempts to recruit others, the workshops were led exclusively by me in contradiction of the
+<a href="https://teachtogether.tech/">“never teach alone”</a> rule. It’s speculation, but this may
+in part account for the higher than expected attrition rate, as additional teachers
+and teaching assistants would, in my opinion, have improved the learning experience.
+Having a number of teachers is certainly one of the best things about a Carpentries workshop
+in terms of creating a fun atmosphere and feeding back to each other within the workshop about
+what is working and not working so well.</p>
+<p>Prior to the workshops I also asked the learners to complete a survey designed
+to indicate their needs in order to help me align the lessons accordingly. The results
+are below in the <a href="#data-survey">data skills survey</a> section.</p>
+<p>The primary motivation for these workshops is from my own experience as someone
+who in 2015 didn’t regard myself as someone who coded, but realised that I needed to learn to
+better data analysis skills in order to successfully do my research, and in a more efficient
+and reproducible way. Through an introduction to the R
+community via <a href="https://simplystatistics.org/">Simply Statistics</a>,
+I discovered that coding, and its associated skills and community met that unmet need. I subsequently observed that there
+are other people in my immediate environment in similar positions to myself,
+struggling with their data too, but unsure of how
+to get started, and learning in largely ad-hoc ways.(This also reflected in the answers
+to <a href="#data-survey">data skills survey</a> below.) This observation led me to join the Carpentries community and my involvement
+with the <a href="https://rsgsoton.net/">Research Software Group</a> in Southampton.
+In the last decade there has been an explosion of free availability of materials
+for teaching coding and data analysis in R and Python: The Carpentries, <a href="https://r4ds.had.co.nz/">R for Data Science</a>,
+<a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesdays</a>, and Teaching Tech Together to name a few.
+Hence <a href="https://ab604.github.io/docs/coding-together-2019/">the materials I’ve put together</a> largely draw from these existing materials,
+and there exist far more materials than can be covered in nine two hour sessions.</p>
+<p>The hypothesis I’ve formulated is that there exists a large cohort of people - not just
+researchers and students, but also administrators and others - within
+the University of Southampton who don’t identify as coders, but who actually do
+code informally through their use of Excel, Graphpad and other software, who would
+benefit from some foundational coding skills if given the opportunity to learn, and
+that these skills were taught from the stance of <em>“What do you need?”</em> and <em>“Let’s work this out together.”</em>
+rather than <em>“You should learn this.”</em> or <em>“People who use Excel are idiots.”</em>.
+Moreover that anyone who would like to learn these foundational skills should be
+do so within the University. I’m not sure what Universities think they are for any more,
+but I’d like to think there is still room for just helping each other and doing things
+because they are intrinsically worthwhile, rather for than money, metrics or prestige.
+I’ve not been able to test my hypothesis yet, let alone
+demonstrate anything concrete that would convince those with power and money to invest in these ideas,
+but this was very much starting where I am, with what we have and who is around me,
+in order to take the first step in understanding what we should be doing. I would
+still very much like to do a proper face-to-face <a href="#data-survey">data skills survey</a> of a representative sample of
+people across the University to assess what needs people actually have and establish
+a bit of ground truth upon which to build an evidence base of what’s needed and what works to meet those needs.</p>
+<p>The motivation for creating a series of workshops was in part from the feedback received at the
+Carpentries workshops I’ve worked on which are usually one or two intensive days,
+and learners express a desire for something with a lower cognitive load, and that
+incorporates spaced repetition. Weekly workshops seem like a good way to address
+that point. Secondly learners also feed back that they particularly like
+live coding and style of teaching i.e. formative and summative assessments,
+and the chance to see mistakes and how to correct them in real time. (In the final
+workshop the learners spotted the missing comma was in a function when their code
+was working, but mine wasn’t!).</p>
+<p>Given the attrition rate, comparison of the anonymous pre and post-workshops surveys (see <a href="#workshops-survey">survey results</a>) carried
+out is not massively informative. But the data such as it is, does indicate that of
+the eight learners completing the post workshop survey, only one said they now
+would not be able to use R to import, export, transform and plot data from a spreadsheet.</p>
+<p>Qualitative feedback was in line with that received at Carpentries workshops in that
+the process of writing code with others, slowly, and use of stickies to indicate when learners
+are OK or not were the most useful aspects. As for improvements, there were several requests for homework so
+learners could practice between sessions, as well as for a more interesting and
+wider range of data sets. Not much love for the Portal Rodent Survey, and I think I
+agree it is a rather dull data set. There was also a request for more sessions, and
+one of the main things I learnt myself was that the content appropriate for two hours
+is far less than I thought originally.</p>
+<p>In seeing some of the learners back at their research since the workshops,
+I’ve observed difficulties in translating concepts covered in the
+workshops to their own work e.g. Recognising when matching observations between
+datasets requires using a join function.
+Problem recognition is ubiquitous problem in itself. My anecdotal experience of asking
+researchers (including myself) at all levels from Undergraduate to Professor what the question is
+they are trying to answer, is that they struggle to provide a concise response, and this
+is usually the start of an iterative process to whittle down from the general
+to the specific. I don’t know whether this process is something that has
+a more formal approach in the context of teaching coding - ironically I couldn’t figure out
+how to Google it - or is just what people
+informally refer to as “experience”. It could simply be that the summative
+assessments weren’t actually doing what they were supposed to do in terms of
+demonstrating whether I had conveyed the concepts. I think this is
+another example of why one shouldn’t teach alone, and that this sort of issue
+would be more easily addressed within a group leading to better lesson design and
+delivery.</p>
+<p>If this isn’t to be the end of the line, I think the next steps require me to follow
+Greg Wilson’s advice about <a href="https://teachtogether.tech/#s:outreach-final">building relationships</a>,
+particularly with some social scientists and the rest of the <a href="https://rsgsoton.net/">Research Software Group</a>.</p>
+<p>I should also note here that a broader survey was carried out by the Research Software Group
+at the University of Southampton in 2019. It was broader in the sense that it aimed
+to survey software development as well as use, across all levels of expertise, rather
+than my focus on those who don’t think of themselves as software users/coders, and on tool use.
+It presents a picture of a University full of software users and developers in need of
+better support, however it’s limited by the issue of capturing only those who responded to the email,
+and are comfortable with the language of computer science such as <em>“script”</em> or <em>“clean some data”</em>.
+I’d be interested to see a question about how people from different disciplines interpret the word <em>“software”</em> in another
+survey and how it compares with the authors own description. I was struck by the omission of Microsoft Office or Safari or
+other well known brand names from the description of what software is. Given the ubiquity of
+MS Office in generating research results I wonder what an A-B version of survey
+with a more technical versus less technical description would have done to the survey answers? Possibly nothing!
+But I guess that’s one motivation for engaging social scientists in this challenge.
+The full report can be found <a href="Research%20Software%20Group">here</a>.</p>
+</div>
+<div id="workshops-survey" class="section level2">
+<h2>Coding togetheR surveys results</h2>
+<p>The learners were asked these five questions before and after the workshop series:</p>
+<ol style="list-style-type: decimal">
+<li>Could you import data from a spreadsheet and create a new variable (column) as a function of the existing variables? For example create a new column in the table containing the mean value of three other columns?<br />
+</li>
+<li>Could you import data from a spreadsheet and subset specific rows and columns from the data and assign them to a new object?</li>
+<li>Could you import data from a spreadsheet and use a function to tell you number of observations (rows) and variables (columns) the data set contains?</li>
+<li>Could you import data from a spreadsheet, select two variables, and then create a plot of points to explore the relationship between these variables on an x-y axis?</li>
+<li>Would you be able to export tabular data in R to a spreadsheet, for example a csv or excel file?</li>
+</ol>
+<p><img src="/post/2020-01-30-coding-together-report_files/figure-html/plot-1.png" width="672" /></p>
+</div>
+<div id="data-survey" class="section level2">
+<h2>Data skills survey</h2>
+<p>18 of the 23 learners responded to the data skills survey prior to the workshops
+commencing.</p>
+<p><img src="survey-img/q1.svg" /><!-- -->
+<img src="survey-img/q2.svg" /><!-- -->
+<img src="survey-img/q3.svg" /><!-- -->
+<img src="survey-img/q4.svg" /><!-- -->
+<img src="survey-img/q5.svg" /><!-- -->
+<img src="survey-img/q6.svg" /><!-- -->
+<img src="survey-img/q7.svg" /><!-- -->
+<img src="survey-img/q8.svg" /><!-- -->
+<img src="survey-img/q9.svg" /><!-- -->
+<img src="survey-img/q10.svg" /><!-- -->
+<img src="survey-img/q11.svg" /><!-- -->
+<img src="survey-img/q12.svg" /><!-- --></p>
+</div>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hub24d5d15fe41a3cefbb61801cf3491e0_405225_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/">Alistair Bailey</a></h5>
+      <h6 class="card-subtitle">Research Fellow in Immunoproteomics</h6>
+      <p class="card-text" itemprop="description">My research interests include MHC class I antigen processing and presentation, data science in R and proteomics</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0003-0023-8679" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="//twitter.com/alistair604" >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=Xq7lwXEAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/ab604" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.f1a21f988a77cdbdeeb2f60c710009d1.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

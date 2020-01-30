@@ -450,32 +450,170 @@ Sci Rep, (5), pp. 14928, &lt;a href=&#34;https://doi.org/10.1038/srep14928&#34; 
     </item>
     
     <item>
-      <title>Test post</title>
-      <link>/post/2020-01-30-test-post/</link>
+      <title>Coding TogetheR Workshop Series Report</title>
+      <link>/post/2020-01-30-coding-together-report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-01-30-test-post/</guid>
+      <guid>/post/2020-01-30-coding-together-report/</guid>
       <description>
 
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;R Markdown&lt;/h2&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;summary-and-reflections&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary and reflections&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://ab604.github.io/docs/coding-together-2019/&#34;&gt;Coding togetheR&lt;/a&gt; was run as
+a series of two hour workshops based on my experiences of working as a member of &lt;a href=&#34;https://carpentries.org/&#34;&gt;The Carpentries&lt;/a&gt; community, as a member of the global R community,
+and as the name suggests from reading Greg Wilson’s &lt;a href=&#34;https://teachtogether.tech/#&#34;&gt;Teaching Tech Together&lt;/a&gt;.
+There were seven workshops weekly from the 10th October 2019 until the 21st November,
+and then there
+were two further workshops on the 9th and 16th of January. (We had a break during the industrial action.)&lt;/p&gt;
+&lt;p&gt;The course was intended to be open to 20 learners from across the University, but
+after opening application on a first come, first serve basis to those on the Life Sciences
+mailing list, the course was filled within an hour of advertisement by
+learners almost exclusively from Biological Sciences and Medicine, including three
+additional learners to the original 20, making a total of 23 learners registered.&lt;/p&gt;
+&lt;p&gt;The aim of the workshops was to provide a question driven introduction to working
+with tabular data in R by introducing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the R language in the RStudio interactive development environment.&lt;/li&gt;
+&lt;li&gt;how to organise analysis into a workflow.&lt;/li&gt;
+&lt;li&gt;how to import and export data and how the atomic data types are represented in R.&lt;/li&gt;
+&lt;li&gt;data transformation using R.&lt;/li&gt;
+&lt;li&gt;visualising data using R.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The course materials exist as an &lt;a href=&#34;(https://ab604.github.io/docs/coding-together-2019/)&#34;&gt;online book&lt;/a&gt;
+and some &lt;a href=&#34;https://ab604.github.io/docs/coding-together-slides-2019/lesson-slides-2019.html#1&#34;&gt;accompying slides&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As measured by the number of workshop survey respondents,
+the workshops began with 23 learners and finished with 8 learners. A 65% attrition rate,
+worse than my prediction of 50%.&lt;br /&gt;
+Despite my best intentions, and as a result of my fairly poor attempts to recruit others, the workshops were led exclusively by me in contradiction of the
+&lt;a href=&#34;https://teachtogether.tech/&#34;&gt;“never teach alone”&lt;/a&gt; rule. It’s speculation, but this may
+in part account for the higher than expected attrition rate, as additional teachers
+and teaching assistants would, in my opinion, have improved the learning experience.
+Having a number of teachers is certainly one of the best things about a Carpentries workshop
+in terms of creating a fun atmosphere and feeding back to each other within the workshop about
+what is working and not working so well.&lt;/p&gt;
+&lt;p&gt;Prior to the workshops I also asked the learners to complete a survey designed
+to indicate their needs in order to help me align the lessons accordingly. The results
+are below in the &lt;a href=&#34;#data-survey&#34;&gt;data skills survey&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;The primary motivation for these workshops is from my own experience as someone
+who in 2015 didn’t regard myself as someone who coded, but realised that I needed to learn to
+better data analysis skills in order to successfully do my research, and in a more efficient
+and reproducible way. Through an introduction to the R
+community via &lt;a href=&#34;https://simplystatistics.org/&#34;&gt;Simply Statistics&lt;/a&gt;,
+I discovered that coding, and its associated skills and community met that unmet need. I subsequently observed that there
+are other people in my immediate environment in similar positions to myself,
+struggling with their data too, but unsure of how
+to get started, and learning in largely ad-hoc ways.(This also reflected in the answers
+to &lt;a href=&#34;#data-survey&#34;&gt;data skills survey&lt;/a&gt; below.) This observation led me to join the Carpentries community and my involvement
+with the &lt;a href=&#34;https://rsgsoton.net/&#34;&gt;Research Software Group&lt;/a&gt; in Southampton.
+In the last decade there has been an explosion of free availability of materials
+for teaching coding and data analysis in R and Python: The Carpentries, &lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34;&gt;Tidy Tuesdays&lt;/a&gt;, and Teaching Tech Together to name a few.
+Hence &lt;a href=&#34;https://ab604.github.io/docs/coding-together-2019/&#34;&gt;the materials I’ve put together&lt;/a&gt; largely draw from these existing materials,
+and there exist far more materials than can be covered in nine two hour sessions.&lt;/p&gt;
+&lt;p&gt;The hypothesis I’ve formulated is that there exists a large cohort of people - not just
+researchers and students, but also administrators and others - within
+the University of Southampton who don’t identify as coders, but who actually do
+code informally through their use of Excel, Graphpad and other software, who would
+benefit from some foundational coding skills if given the opportunity to learn, and
+that these skills were taught from the stance of &lt;em&gt;“What do you need?”&lt;/em&gt; and &lt;em&gt;“Let’s work this out together.”&lt;/em&gt;
+rather than &lt;em&gt;“You should learn this.”&lt;/em&gt; or &lt;em&gt;“People who use Excel are idiots.”&lt;/em&gt;.
+Moreover that anyone who would like to learn these foundational skills should be
+do so within the University. I’m not sure what Universities think they are for any more,
+but I’d like to think there is still room for just helping each other and doing things
+because they are intrinsically worthwhile, rather for than money, metrics or prestige.
+I’ve not been able to test my hypothesis yet, let alone
+demonstrate anything concrete that would convince those with power and money to invest in these ideas,
+but this was very much starting where I am, with what we have and who is around me,
+in order to take the first step in understanding what we should be doing. I would
+still very much like to do a proper face-to-face &lt;a href=&#34;#data-survey&#34;&gt;data skills survey&lt;/a&gt; of a representative sample of
+people across the University to assess what needs people actually have and establish
+a bit of ground truth upon which to build an evidence base of what’s needed and what works to meet those needs.&lt;/p&gt;
+&lt;p&gt;The motivation for creating a series of workshops was in part from the feedback received at the
+Carpentries workshops I’ve worked on which are usually one or two intensive days,
+and learners express a desire for something with a lower cognitive load, and that
+incorporates spaced repetition. Weekly workshops seem like a good way to address
+that point. Secondly learners also feed back that they particularly like
+live coding and style of teaching i.e. formative and summative assessments,
+and the chance to see mistakes and how to correct them in real time. (In the final
+workshop the learners spotted the missing comma was in a function when their code
+was working, but mine wasn’t!).&lt;/p&gt;
+&lt;p&gt;Given the attrition rate, comparison of the anonymous pre and post-workshops surveys (see &lt;a href=&#34;#workshops-survey&#34;&gt;survey results&lt;/a&gt;) carried
+out is not massively informative. But the data such as it is, does indicate that of
+the eight learners completing the post workshop survey, only one said they now
+would not be able to use R to import, export, transform and plot data from a spreadsheet.&lt;/p&gt;
+&lt;p&gt;Qualitative feedback was in line with that received at Carpentries workshops in that
+the process of writing code with others, slowly, and use of stickies to indicate when learners
+are OK or not were the most useful aspects. As for improvements, there were several requests for homework so
+learners could practice between sessions, as well as for a more interesting and
+wider range of data sets. Not much love for the Portal Rodent Survey, and I think I
+agree it is a rather dull data set. There was also a request for more sessions, and
+one of the main things I learnt myself was that the content appropriate for two hours
+is far less than I thought originally.&lt;/p&gt;
+&lt;p&gt;In seeing some of the learners back at their research since the workshops,
+I’ve observed difficulties in translating concepts covered in the
+workshops to their own work e.g. Recognising when matching observations between
+datasets requires using a join function.
+Problem recognition is ubiquitous problem in itself. My anecdotal experience of asking
+researchers (including myself) at all levels from Undergraduate to Professor what the question is
+they are trying to answer, is that they struggle to provide a concise response, and this
+is usually the start of an iterative process to whittle down from the general
+to the specific. I don’t know whether this process is something that has
+a more formal approach in the context of teaching coding - ironically I couldn’t figure out
+how to Google it - or is just what people
+informally refer to as “experience”. It could simply be that the summative
+assessments weren’t actually doing what they were supposed to do in terms of
+demonstrating whether I had conveyed the concepts. I think this is
+another example of why one shouldn’t teach alone, and that this sort of issue
+would be more easily addressed within a group leading to better lesson design and
+delivery.&lt;/p&gt;
+&lt;p&gt;If this isn’t to be the end of the line, I think the next steps require me to follow
+Greg Wilson’s advice about &lt;a href=&#34;https://teachtogether.tech/#s:outreach-final&#34;&gt;building relationships&lt;/a&gt;,
+particularly with some social scientists and the rest of the &lt;a href=&#34;https://rsgsoton.net/&#34;&gt;Research Software Group&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I should also note here that a broader survey was carried out by the Research Software Group
+at the University of Southampton in 2019. It was broader in the sense that it aimed
+to survey software development as well as use, across all levels of expertise, rather
+than my focus on those who don’t think of themselves as software users/coders, and on tool use.
+It presents a picture of a University full of software users and developers in need of
+better support, however it’s limited by the issue of capturing only those who responded to the email,
+and are comfortable with the language of computer science such as &lt;em&gt;“script”&lt;/em&gt; or &lt;em&gt;“clean some data”&lt;/em&gt;.
+I’d be interested to see a question about how people from different disciplines interpret the word &lt;em&gt;“software”&lt;/em&gt; in another
+survey and how it compares with the authors own description. I was struck by the omission of Microsoft Office or Safari or
+other well known brand names from the description of what software is. Given the ubiquity of
+MS Office in generating research results I wonder what an A-B version of survey
+with a more technical versus less technical description would have done to the survey answers? Possibly nothing!
+But I guess that’s one motivation for engaging social scientists in this challenge.
+The full report can be found &lt;a href=&#34;Research%20Software%20Group&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Including Plots&lt;/h2&gt;
-&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-01-30-test-post_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
+&lt;div id=&#34;workshops-survey&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Coding togetheR surveys results&lt;/h2&gt;
+&lt;p&gt;The learners were asked these five questions before and after the workshop series:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Could you import data from a spreadsheet and create a new variable (column) as a function of the existing variables? For example create a new column in the table containing the mean value of three other columns?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Could you import data from a spreadsheet and subset specific rows and columns from the data and assign them to a new object?&lt;/li&gt;
+&lt;li&gt;Could you import data from a spreadsheet and use a function to tell you number of observations (rows) and variables (columns) the data set contains?&lt;/li&gt;
+&lt;li&gt;Could you import data from a spreadsheet, select two variables, and then create a plot of points to explore the relationship between these variables on an x-y axis?&lt;/li&gt;
+&lt;li&gt;Would you be able to export tabular data in R to a spreadsheet, for example a csv or excel file?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-01-30-coding-together-report_files/figure-html/plot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-survey&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data skills survey&lt;/h2&gt;
+&lt;p&gt;18 of the 23 learners responded to the data skills survey prior to the workshops
+commencing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;survey-img/q1.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q2.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q3.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q4.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q5.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q6.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q7.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q8.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q9.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q10.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q11.svg&#34; /&gt;&lt;!-- --&gt;
+&lt;img src=&#34;survey-img/q12.svg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
