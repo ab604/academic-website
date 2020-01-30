@@ -20,12 +20,12 @@
 
 [[main]]
   name = "Publications"
-  url = "#pages"
+  url = "#publications"
   weight = 20
 
 [[main]]
   name = "CV"
-  url = "content/cv-07-12-2018.pdf"
+  url = "/cv-07-12-2018.pdf"
   weight = 50
 
 [[main]]
