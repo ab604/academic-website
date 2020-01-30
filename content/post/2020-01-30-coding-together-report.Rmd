@@ -224,39 +224,39 @@ surveys %>%
 commencing.
 
 ```{r q1}
-knitr::include_graphics("survey-img/q1.png")
+knitr::include_graphics("survey-img/q1.svg")
 ```
 ```{r q2}
-knitr::include_graphics("survey-img/q2.png")
+knitr::include_graphics("survey-img/q2.svg")
 ```
 ```{r q3}
-knitr::include_graphics("survey-img/q3.png")
+knitr::include_graphics("survey-img/q3.svg")
 ```
 ```{r q4}
-knitr::include_graphics("survey-img/q4.png")
+knitr::include_graphics("survey-img/q4.svg")
 ```
 ```{r q5}
-knitr::include_graphics("survey-img/q5.png")
+knitr::include_graphics("survey-img/q5.svg")
 ```
 ```{r q6}
-knitr::include_graphics("survey-img/q6.png")
+knitr::include_graphics("survey-img/q6.svg")
 ```
 ```{r q7}
-knitr::include_graphics("survey-img/q7.png")
+knitr::include_graphics("survey-img/q7.svg")
 ```
 ```{r q8}
-knitr::include_graphics("survey-img/q8.png")
+knitr::include_graphics("survey-img/q8.svg")
 ```
 ```{r q9}
-knitr::include_graphics("survey-img/q9.png")
+knitr::include_graphics("survey-img/q9.svg")
 ```
 ```{r q10}
-knitr::include_graphics("survey-img/q10.png")
+knitr::include_graphics("survey-img/q10.svg")
 ```
 ```{r q11}
-knitr::include_graphics("survey-img/q11.png")
+knitr::include_graphics("survey-img/q11.svg")
 ```
 ```{r q12}
-knitr::include_graphics("survey-img/q12.png")
+knitr::include_graphics("survey-img/q12.svg")
 ```
 
