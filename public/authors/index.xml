@@ -6,28 +6,10 @@
     <description>Recent content in Authors on Dr. Alistair Bailey</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a researcher at the &lt;a href=&#34;http://www.proteome.soton.ac.uk/&#34; target=&#34;_blank&#34;&gt;Centre for Proteomic Research&lt;/a&gt; and &lt;a href=&#34;http://www.som.soton.ac.uk/research/cancersciences/&#34; target=&#34;_blank&#34;&gt;Cancer Sciences Unit&lt;/a&gt; at the
-&lt;a href=&#34;https://www.soton.ac.uk&#34; target=&#34;_blank&#34;&gt;University of Southampton&lt;/a&gt;. My research interests are
-in antigen processing and presentation by class I MHC molecules, data science
-and proteomics.&lt;/p&gt;
-
-&lt;p&gt;My current project aims to understand the involvement of class I MHC molecules
-in skin sensitisation to chemical allergens. I also contribute to research into
-human cancer and contagious cancer in the
-&lt;a href=&#34;https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page&#34; target=&#34;_blank&#34;&gt;Tasmanian Devil&lt;/a&gt;, and I am a &lt;a href=&#34;https://carpentries.org/&#34; target=&#34;_blank&#34;&gt;Data and Software Carpentry&lt;/a&gt; instructor.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Alistair Bailey</title>
@@ -252,6 +234,24 @@ human cancer and contagious cancer in the
       
       <guid>/authors/e.-james/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a researcher at the &lt;a href=&#34;http://www.proteome.soton.ac.uk/&#34; target=&#34;_blank&#34;&gt;Centre for Proteomic Research&lt;/a&gt; and &lt;a href=&#34;http://www.som.soton.ac.uk/research/cancersciences/&#34; target=&#34;_blank&#34;&gt;Cancer Sciences Unit&lt;/a&gt; at the
+&lt;a href=&#34;https://www.soton.ac.uk&#34; target=&#34;_blank&#34;&gt;University of Southampton&lt;/a&gt;. My research interests are
+in antigen processing and presentation by class I MHC molecules, data science
+and proteomics.&lt;/p&gt;
+
+&lt;p&gt;My current project aims to understand the involvement of class I MHC molecules
+in skin sensitisation to chemical allergens. I also contribute to research into
+human cancer and contagious cancer in the
+&lt;a href=&#34;https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page&#34; target=&#34;_blank&#34;&gt;Tasmanian Devil&lt;/a&gt;, and I am a &lt;a href=&#34;https://carpentries.org/&#34; target=&#34;_blank&#34;&gt;Data and Software Carpentry&lt;/a&gt; instructor.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
