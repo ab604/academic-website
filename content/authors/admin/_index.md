@@ -52,4 +52,4 @@ in antigen processing and presentation by class I MHC molecules, data science
 and proteomics.
 
 My current project aims to improve immunotherapy treatment for cancer patients. I also contribute to research into the role of MHC molecules in skin sensitisation to chemical allergens, and contagious cancer in the
-[Tasmanian Devil](https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page), and I am a [Data and Software Carpentry](https://carpentries.org/) instructor. 
+[Tasmanian Devil](https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page). I am also a [Data and Software Carpentry](https://carpentries.org/) instructor. 
