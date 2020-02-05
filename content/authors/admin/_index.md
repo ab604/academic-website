@@ -15,6 +15,7 @@ education:
     year: 1994
 email: ""
 interests:
+- Cancer immunotherapy
 - MHC class I antigen processing and presentation
 - Data science in R
 - Proteomics
@@ -50,7 +51,5 @@ I am a researcher at the [Centre for Proteomic Research](http://www.proteome.sot
 in antigen processing and presentation by class I MHC molecules, data science 
 and proteomics.
 
-My current project aims to understand the involvement of class I MHC molecules
-in skin sensitisation to chemical allergens. I also contribute to research into
-human cancer and contagious cancer in the
+My current project aims to improve immunotherapy treatment for cancer patients. I also contribute to research into the role of MHC molecules in skin sensitisation to chemical allergens, and contagious cancer in the
 [Tasmanian Devil](https://www.southampton.ac.uk/biosci/research/projects/identifying-peptide-candidates-for-a-vaccine-against-the-contagious-cancer.page), and I am a [Data and Software Carpentry](https://carpentries.org/) instructor. 
